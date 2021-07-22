@@ -21,4 +21,4 @@ jobs:
           git add .
           git commit -m "Generate index file automatically" -a
           git pull
-          git push origin master
+          git push origin main
