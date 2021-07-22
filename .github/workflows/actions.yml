@@ -9,6 +9,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: ls
+        run: |
+          ls
+      - name: pwd
+        run: |
+          pwd
       - name: generate
         run: bash generate_index.md
       - name: git setting
