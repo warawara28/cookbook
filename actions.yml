@@ -1,0 +1,24 @@
+name: 'Generate'
+description: 'Generate index file'
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: alpine
+    steps:
+      - name: generate
+        run: bash generate_index.md
+    - name: git setting
+      run: |
+        git config --local user.email "kgwryk28@gmail.com"
+        git config --local user.name "warawara28"
+    - name: Commit files
+      run: |
+        git add .
+        git commit -m "Generate index file automatically" -a
+        git pull
+        git push origin master
