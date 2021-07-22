@@ -1,5 +1,4 @@
 name: 'Generate'
-description: 'Generate index file'
 
 on:
   push:
