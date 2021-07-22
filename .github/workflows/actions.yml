@@ -10,14 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: ls
-        run: |
-          ls
-      - name: pwd
-        run: |
-          pwd
       - name: generate
-        run: bash generate_index.md
+        run: bash generate_index.sh
       - name: git setting
         run: |
           git config --local user.email "kgwryk28@gmail.com"
