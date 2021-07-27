@@ -1,5 +1,9 @@
 
+- [chinese_egg_soup.md](./recipes/chinese_egg_soup.md)
+- [how_to_wash_rice.md](./recipes/how_to_wash_rice.md)
+- [takoyaki.md](./recipes/takoyaki.md)
 - [tuna_pasta.md](./recipes/tuna_pasta.md)
+- [yakekuso_peperoncino.md](./recipes/yakekuso_peperoncino.md)
 - [冷凍.md](./recipes/冷凍.md)
 - [卵焼き.md](./recipes/卵焼き.md)
 - [玉ねぎの焼き方.md](./recipes/玉ねぎの焼き方.md)
